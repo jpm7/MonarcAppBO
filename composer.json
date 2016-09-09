@@ -1,0 +1,33 @@
+{
+    "name": "monarc/MonarcAppBO",
+    "description": "Monarc Backoffice Full App",
+    "authors": [
+        {"name": "Cyril Rouyer", "email": "cyril@netlor.fr"},
+        {"name": "Guillaume Lesniak", "email": "guillaume@netlor.fr"},
+        {"name": "Jerôme De Almeida", "email": "jerome.dealmeida@vesperiagroup.com"},
+        {"name": "Benjamin Ganivet", "email": "benjamin@netlor.fr"},
+        {"name": "Thomas Metois", "email": "thomas@netlor.fr"}
+    ],
+    "require": {
+        "monarc/core": "dev-master",
+        "monarc/backoffice": "dev-master",
+        "monarc/skeleton": "dev-master"
+    },
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://rhea.netlor.fr/monarc/zm_core/raw/master/packages.json"
+        },
+        {
+            "type": "composer",
+            "url": "https://rhea.netlor.fr/monarc/skeleton/raw/master/packages.json"
+        },
+        {
+            "type": "composer",
+            "url": "https://rhea.netlor.fr/monarc/zm_backoffice/raw/master/packages.json"
+        }
+    ]
+}
