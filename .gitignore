@@ -1,6 +1,7 @@
 vendor/
 bin/
 app/
+node_modules/
 app
 composer.lock
 
