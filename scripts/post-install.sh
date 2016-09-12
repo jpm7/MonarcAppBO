@@ -14,3 +14,13 @@ ln -s node_modules app/node_modules
 cd app
 ./scripts/compile_translations.sh
 ./scripts/link_modules_resources.sh
+
+# Prepare the config files
+cp config/application.config.php-dist-BO config/application.config.php
+cp config/autoload/local.php.dist config/autoload/local.php
+
+echo "========================="
+echo "Install complete!"
+echo "Remember to configure app/config/autoload/local.php!"
+echo "========================="
+
