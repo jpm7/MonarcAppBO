@@ -4,11 +4,19 @@
 ln -s vendor/monarc/skeleton app
 mkdir -p app/module
 
-ln -s vendor/monarc/backoffice app/module/MonarcBO
-ln -s vendor/monarc/core app/module/MonarcCore
+#Link vendors into vendor/monarc/skeleton
+cd vendor/monarc/skeleton
+ln -s ../../../vendor
+
+cd ../../../app/module
+
+ln -s ../vendor/monarc/backoffice MonarcBO
+ln -s ../vendor/monarc/core MonarcCore
+
+cd ..
 
 # Link the Angular part of the app
-ln -s node_modules app/node_modules
+ln -s $(pwd)/../node_modules node_modules
 
 # Compile stuff needed for the minified frontend
 cd app
