@@ -9,9 +9,9 @@
         {"name": "Thomas Metois", "email": "thomas@netlor.fr"}
     ],
     "require": {
-        "monarc/core": "v0.0.3-preprod-dev+0",
-        "monarc/backoffice": "v0.0.3-preprod-dev+0",
-        "monarc/skeleton": "v0.0.3-preprod-dev+0"
+        "monarc/core": "v0.0.1-preprod-dev+0",
+        "monarc/backoffice": "v0.0.1-preprod-dev+0",
+        "monarc/skeleton": "v0.0.1-preprod-dev+0"
     },
     "config": {
         "bin-dir": "bin/"
@@ -19,15 +19,15 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://rhea.netlor.fr/monarc/zm_core/raw/v0.0.3-preprod-dev+0/packages.json"
+            "url": "https://rhea.netlor.fr/monarc/zm_core/raw/v0.0.1-preprod-dev+0/packages.json"
         },
         {
             "type": "composer",
-            "url": "https://rhea.netlor.fr/monarc/skeleton/raw/v0.0.3-preprod-dev+0/packages.json"
+            "url": "https://rhea.netlor.fr/monarc/skeleton/raw/v0.0.1-preprod-dev+0/packages.json"
         },
         {
             "type": "composer",
-            "url": "https://rhea.netlor.fr/monarc/zm_backoffice/raw/v0.0.3-preprod-dev+0/packages.json"
+            "url": "https://rhea.netlor.fr/monarc/zm_backoffice/raw/v0.0.1-preprod-dev+0/packages.json"
         }
     ]
 }
