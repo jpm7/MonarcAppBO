@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "44642741751ac95795a3597194a3eb1f",
+    "content-hash": "92d5bd2eb9da3c694c2fabf8e0f89ec9",
     "packages": [
         {
             "name": "behat/behat",
@@ -1424,7 +1424,7 @@
         },
         {
             "name": "monarc/backoffice",
-            "version": "v0.0.6-beta6",
+            "version": "v0.0.6-beta7",
             "source": {
                 "type": "git",
                 "url": "git@github.com:CASES-LU/zm-backoffice",
@@ -1466,11 +1466,11 @@
         },
         {
             "name": "monarc/core",
-            "version": "v0.0.6-beta6",
+            "version": "v0.0.6-beta7",
             "source": {
                 "type": "git",
                 "url": "git@github.com:CASES-LU/zm-core",
-                "reference": "7c0ca3100187f2de86247cd071732be4d16eb5d1"
+                "reference": "e0e74b6dc91f5dfa11f8849fc9d35230e650d427"
             },
             "require": {
                 "behat/behat": "~3.0",
@@ -1511,11 +1511,11 @@
                 }
             ],
             "description": "Core for Monarc project",
-            "time": "2016-09-15 14:22:17"
+            "time": "2016-09-15 14:29:26"
         },
         {
             "name": "monarc/skeleton",
-            "version": "v0.0.6-beta6",
+            "version": "v0.0.6-beta7",
             "source": {
                 "type": "git",
                 "url": "git@github.com:CASES-LU/skeleton",
