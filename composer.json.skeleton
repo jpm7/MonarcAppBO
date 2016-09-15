@@ -18,16 +18,16 @@
     },
     "repositories": [
         {
-            "type": "composer",
-            "url": "https://rhea.netlor.fr/monarc/zm_core/raw/##BRANCH##/packages.json"
+            "type": "git",
+            "url": "git@github.com:CASES-LU/zm-core"
         },
         {
-            "type": "composer",
-            "url": "https://rhea.netlor.fr/monarc/skeleton/raw/##BRANCH##/packages.json"
+            "type": "git",
+            "url": "git@github.com:CASES-LU/skeleton"
         },
         {
-            "type": "composer",
-            "url": "https://rhea.netlor.fr/monarc/zm_backoffice/raw/##BRANCH##/packages.json"
+            "type": "git",
+            "url": "git@github.com:CASES-LU/zm-backoffice"
         }
     ]
 }
