@@ -1,21 +1,21 @@
 #!/bin/bash
 
-ROOTDIR=$(pwd)
-
 # Link the Zend part of the app
 ln -s vendor/monarc/skeleton app
 mkdir -p app/module
 
 # Link vendors into vendor/monarc/skeleton
-ln -s ${ROOTDIR}/vendor ${ROOTDIR}/vendor/monarc/skeleton/vendor
+cd vendor/monarc/skeleton
+ln -s ../../../vendor
 
-ln -s ${ROOTDIR}/vendor/monarc/backoffice ${ROOTDIR}/vendor/monarc/skeleton/module/MonarcBO
-ln -s ${ROOTDIR}/vendor/monarc/core ${ROOTDIR}/vendor/monarc/skeleton/module/MonarcCore
+cd ../../../app/module
+
+ln -s ../vendor/monarc/backoffice MonarcBO
+ln -s ../vendor/monarc/core MonarcCore
+
+cd ../
 
 # Link the Angular part of the app
-cp -f ${ROOTDIR}/package.json ${ROOTDIR}/app/package.json
-
-cd ${ROOTDIR}/app
 npm install
 
 cd node_modules/ng_backoffice
