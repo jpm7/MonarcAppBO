@@ -9,25 +9,25 @@
         {"name": "Thomas Metois", "email": "thomas@netlor.fr"}
     ],
     "require": {
-        "monarc/core": "dev-master",
-        "monarc/backoffice": "dev-master",
-        "monarc/skeleton": "dev-master"
+        "monarc/core": "v0.0.5-beta0",
+        "monarc/backoffice": "v0.0.5-beta0",
+        "monarc/skeleton": "v0.0.5-beta0"
     },
     "config": {
         "bin-dir": "bin/"
     },
     "repositories": [
         {
-            "type": "composer",
-            "url": "https://rhea.netlor.fr/monarc/zm_core/raw/master/packages.json"
+            "type": "git",
+            "url": "git@github.com:CASES-LU/zm-core"
         },
         {
-            "type": "composer",
-            "url": "https://rhea.netlor.fr/monarc/skeleton/raw/master/packages.json"
+            "type": "git",
+            "url": "git@github.com:CASES-LU/skeleton"
         },
         {
-            "type": "composer",
-            "url": "https://rhea.netlor.fr/monarc/zm_backoffice/raw/master/packages.json"
+            "type": "git",
+            "url": "git@github.com:CASES-LU/zm-backoffice"
         }
     ]
 }
