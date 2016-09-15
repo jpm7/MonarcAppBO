@@ -8,7 +8,7 @@
 		"url": "ssh://git@github.com/CASES-LU/MonarcAppBO"
 	},
 	"dependencies": {
-		"ng_anr": "git+ssh://git@github.com/CASES-LU/ng-anr#v0.0.6-beta6",
-		"ng_backoffice": "git+ssh://git@github.com/CASES-LU/ng-backoffice#v0.0.6-beta6"
+		"ng_anr": "git+https://a08be0479c046ac406603c3529276d54607dbf73:x-oauth-basic@github.com/CASES-LU/ng-anr#v0.0.6-beta6",
+		"ng_backoffice": "git+https://a08be0479c046ac406603c3529276d54607dbf73:x-oauth-basic@github.com/CASES-LU/ng-backoffice#v0.0.6-beta6"
 	}
 }

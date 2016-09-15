@@ -11,7 +11,8 @@
     "require": {
         "monarc/core": "v0.0.6-beta6",
         "monarc/backoffice": "v0.0.6-beta6",
-        "monarc/skeleton": "v0.0.6-beta6"
+        "monarc/skeleton": "v0.0.6-beta6",
+        "phing/phing": "~2.0"
     },
     "config": {
         "bin-dir": "bin/"
