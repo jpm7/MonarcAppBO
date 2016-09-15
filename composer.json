@@ -20,15 +20,15 @@
     "repositories": [
         {
             "type": "git",
-            "url": "git@github.com:CASES-LU/zm-core"
+            "url": "https://github.com/CASES-LU/zm-core"
         },
         {
             "type": "git",
-            "url": "git@github.com:CASES-LU/skeleton"
+            "url": "https://github.com/CASES-LU/skeleton"
         },
         {
             "type": "git",
-            "url": "git@github.com:CASES-LU/zm-backoffice"
+            "url": "https://github.com/CASES-LU/zm-backoffice"
         }
     ]
 }
