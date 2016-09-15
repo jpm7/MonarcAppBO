@@ -13,9 +13,11 @@ cd ../../../app/module
 ln -s ../vendor/monarc/backoffice MonarcBO
 ln -s ../vendor/monarc/core MonarcCore
 
-cd ../
+cd ../..
 
 # Link the Angular part of the app
+cp -f package.json app/package.json
+cd app
 npm install
 
 cd node_modules/ng_backoffice
