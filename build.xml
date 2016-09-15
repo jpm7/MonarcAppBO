@@ -23,14 +23,7 @@
               checkreturn="true"/>
     </target>
 
-    <target name="remove-npm-token" description="Destroy NPM config">
-        <loadfile property="npm.config" file="${project.basedir}/package.json">
-            <filterchain>
-                <replacetokens>
-                    <token key="${env.GITHUB_TOKEN}" value="xxx"/>
-                </replacetokens>
-            </filterchain>
-        </loadfile>
-        <echo message="${npm.config}" file="${project.basedir}/package.json"/>
+    <target name="remove-npm-config" description="Remove NPM config">
+        <delete file="${project.basedir}/package.json" quiet="true"/>
     </target>
 </project>
