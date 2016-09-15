@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "92d5bd2eb9da3c694c2fabf8e0f89ec9",
+    "content-hash": "07ae7b1b8e41e692cca119c577b08e37",
     "packages": [
         {
             "name": "behat/behat",
@@ -1427,7 +1427,7 @@
             "version": "v0.0.6-beta7",
             "source": {
                 "type": "git",
-                "url": "git@github.com:CASES-LU/zm-backoffice",
+                "url": "https://github.com/CASES-LU/zm-backoffice",
                 "reference": "cd6ab61e84718dd26b11f3d6329f8f75ae218ce2"
             },
             "require": {
@@ -1469,7 +1469,7 @@
             "version": "v0.0.6-beta7",
             "source": {
                 "type": "git",
-                "url": "git@github.com:CASES-LU/zm-core",
+                "url": "https://github.com/CASES-LU/zm-core",
                 "reference": "e0e74b6dc91f5dfa11f8849fc9d35230e650d427"
             },
             "require": {
@@ -1518,7 +1518,7 @@
             "version": "v0.0.6-beta7",
             "source": {
                 "type": "git",
-                "url": "git@github.com:CASES-LU/skeleton",
+                "url": "https://github.com/CASES-LU/skeleton",
                 "reference": "03ef5caa8a201cb67615e5a04ca7e1ed4f6ef2c0"
             },
             "require": {
