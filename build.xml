@@ -1,0 +1,25 @@
+<project name="MonarcAppBO" default="help" basedir=".">
+    <target name="help" description="List available targets">
+        <exec executable="vendor/bin/phing"
+              passthru="true">
+            <arg value="-l"/>
+        </exec>
+    </target>
+
+    <target name="setup-npm" description="Setup NPM config">
+        <loadfile property="npm.config" file="${project.basedir}/package.json">
+            <filterchain>
+                <replacetokens>
+                    <token key="github.token" value="${env.GITHUB_TOKEN}"/>
+                </replacetokens>
+            </filterchain>
+        </loadfile>
+        <echo message="${npm.config}" file="${project.basedir}/package.json"/>
+    </target>
+
+    <target name="post-install" description="Post install">
+        <exec command="scripts/post-install.sh"
+              passthru="true"
+              checkreturn="true"/>
+    </target>
+</project>
