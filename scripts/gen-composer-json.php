@@ -7,7 +7,14 @@ if ($argc < 2) {
 
 $tag = $argv[1];
 
+// Build the composer.json
 $file = file_get_contents('composer.json.skeleton');
 $file = str_replace(array("##BRANCH##", "##REQBRANCH##"), array($tag, $tag), $file);
 
 file_put_contents('composer.json', $file);
+
+// Build the package.json
+$file = file_get_contents('package.json.skeleton');
+$file = str_replace("{{BRANCH}}", $tag, $file);
+
+file_put_contents('package.json', $file);
