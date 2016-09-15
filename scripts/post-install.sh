@@ -13,19 +13,15 @@ cd ../../../app/module
 ln -s ../vendor/monarc/backoffice MonarcBO
 ln -s ../vendor/monarc/core MonarcCore
 
-cd ../..
+cd ../
 
 # Link the Angular part of the app
-NODE_MODULES_PATH=$(pwd)/node_modules
+npm install
 
-cd node_modules
-npm install grunt-shell
-npm install grunt-angular-gettext
-npm install grunt-contrib-concat
-npm install grunt-contrib-uglify
+cd node_modules/ng_backoffice
+npm install
 
-cd ../app
-ln -s $NODE_MODULES_PATH node_modules
+cd ../..
 
 # Compile stuff needed for the minified frontend
 ./scripts/compile_translations.sh
