@@ -9,9 +9,9 @@
         {"name": "Thomas Metois", "email": "thomas@netlor.fr"}
     ],
     "require": {
-        "monarc/core": "v0.0.5-beta0",
-        "monarc/backoffice": "v0.0.5-beta0",
-        "monarc/skeleton": "v0.0.5-beta0"
+        "monarc/core": "v0.0.5-beta1",
+        "monarc/backoffice": "v0.0.5-beta1",
+        "monarc/skeleton": "v0.0.5-beta1"
     },
     "config": {
         "bin-dir": "bin/"
