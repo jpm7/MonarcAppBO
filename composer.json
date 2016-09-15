@@ -9,25 +9,26 @@
         {"name": "Thomas Metois", "email": "thomas@netlor.fr"}
     ],
     "require": {
-        "monarc/core": "v0.0.5-beta3",
-        "monarc/backoffice": "v0.0.5-beta3",
-        "monarc/skeleton": "v0.0.5-beta3"
+        "php": ">=5.5",
+        "monarc/core": "0.0.5-beta4",
+        "monarc/backoffice": "0.0.5-beta4",
+        "monarc/skeleton": "0.0.5-beta4"
     },
     "config": {
         "bin-dir": "bin/"
     },
     "repositories": [
         {
-            "type": "git",
-            "url": "git@github.com:CASES-LU/zm-core"
+            "type": "vcs",
+            "url": "https://github.com/CASES-LU/zm-core"
         },
         {
-            "type": "git",
-            "url": "git@github.com:CASES-LU/skeleton"
+            "type": "vcs",
+            "url": "https://github.com/CASES-LU/skeleton"
         },
         {
-            "type": "git",
-            "url": "git@github.com:CASES-LU/zm-backoffice"
+            "type": "vcs",
+            "url": "https://github.com/CASES-LU/zm-backoffice"
         }
     ]
 }
