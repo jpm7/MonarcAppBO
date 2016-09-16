@@ -11,7 +11,7 @@
     "require": {
         "monarc/core": "dev-beta",
         "monarc/backoffice": "dev-beta",
-        "monarc/skeleton": "dev-grunt-setup",
+        "monarc/skeleton": "dev-beta",
         "phing/phing": "~2.0"
     },
     "config": {
