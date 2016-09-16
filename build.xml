@@ -7,7 +7,8 @@
     </target>
 
     <target name="setup-npm" description="Setup NPM config">
-        <loadfile property="npm.config" file="${project.basedir}/package.json">
+        <move file="${project.basedir}/package.json" tofile="${project.basedir}/package.json.bak" overwrite="true"/>
+        <loadfile property="npm.config" file="${project.basedir}/package.json.continuousphp">
             <filterchain>
                 <replacetokens>
                     <token key="github.token" value="${env.GITHUB_TOKEN}"/>
@@ -25,5 +26,6 @@
 
     <target name="remove-npm-config" description="Remove NPM config">
         <delete file="${project.basedir}/package.json" quiet="true"/>
+        <move file="${project.basedir}/package.json.bak" tofile="${project.basedir}/package.json" overwrite="true"/>
     </target>
 </project>
