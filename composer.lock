@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "730042d36a723e89b771f3ab6f3e97fa",
+    "content-hash": "073acd7757be89cd2c39e4b6ea4ba32d",
     "packages": [
         {
             "name": "behat/behat",
@@ -1424,7 +1424,7 @@
         },
         {
             "name": "monarc/backoffice",
-            "version": "v0.0.6-beta7",
+            "version": "dev-beta",
             "source": {
                 "type": "git",
                 "url": "git@github.com:CASES-LU/zm-backoffice.git",
@@ -1476,16 +1476,16 @@
         },
         {
             "name": "monarc/core",
-            "version": "v0.0.6-beta7",
+            "version": "dev-beta",
             "source": {
                 "type": "git",
                 "url": "git@github.com:CASES-LU/zm-core.git",
-                "reference": "e0e74b6dc91f5dfa11f8849fc9d35230e650d427"
+                "reference": "5891e75345551454ef9f9e63699a256addd33078"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CASES-LU/zm-core/zipball/e0e74b6dc91f5dfa11f8849fc9d35230e650d427",
-                "reference": "e0e74b6dc91f5dfa11f8849fc9d35230e650d427",
+                "url": "https://api.github.com/repos/CASES-LU/zm-core/zipball/5891e75345551454ef9f9e63699a256addd33078",
+                "reference": "5891e75345551454ef9f9e63699a256addd33078",
                 "shasum": ""
             },
             "require": {
@@ -1528,14 +1528,14 @@
             ],
             "description": "Core for Monarc project",
             "support": {
-                "source": "https://github.com/CASES-LU/zm-core/tree/v0.0.6-beta7",
+                "source": "https://github.com/CASES-LU/zm-core/tree/master",
                 "issues": "https://github.com/CASES-LU/zm-core/issues"
             },
-            "time": "2016-09-15 14:29:26"
+            "time": "2016-09-15 14:23:34"
         },
         {
             "name": "monarc/skeleton",
-            "version": "v0.0.6-beta7",
+            "version": "dev-beta",
             "source": {
                 "type": "git",
                 "url": "git@github.com:CASES-LU/skeleton.git",
@@ -1585,16 +1585,16 @@
         },
         {
             "name": "myclabs/deep-copy",
-            "version": "1.5.3",
+            "version": "1.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "94e5ca3e90aa5b34663780393e10914f7438f991"
+                "reference": "ea74994a3dc7f8d2f65a06009348f2d63c81e61f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/94e5ca3e90aa5b34663780393e10914f7438f991",
-                "reference": "94e5ca3e90aa5b34663780393e10914f7438f991",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/ea74994a3dc7f8d2f65a06009348f2d63c81e61f",
+                "reference": "ea74994a3dc7f8d2f65a06009348f2d63c81e61f",
                 "shasum": ""
             },
             "require": {
@@ -1623,7 +1623,7 @@
                 "object",
                 "object graph"
             ],
-            "time": "2016-09-07 15:34:10"
+            "time": "2016-09-16 13:37:59"
         },
         {
             "name": "phing/phing",
@@ -6793,9 +6793,9 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "monarc/core": 10,
-        "monarc/backoffice": 10,
-        "monarc/skeleton": 10
+        "monarc/core": 20,
+        "monarc/backoffice": 20,
+        "monarc/skeleton": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
