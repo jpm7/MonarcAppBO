@@ -10,12 +10,5 @@
 	"dependencies": {
 		"ng_anr": "git+ssh://git@github.com/CASES-LU/ng_anr#beta",
 		"ng_backoffice": "git+ssh://git@github.com/CASES-LU/ng_backoffice#beta"
-	},
-	"devDependencies": {
-		"grunt": "~0.4.1",
-        "grunt-cli": "~0.1.13"
-	},
-	"scripts": {
-		"preinstall": "grunt"
 	}
 }

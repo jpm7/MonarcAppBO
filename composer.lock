@@ -1539,12 +1539,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:CASES-LU/skeleton.git",
-                "reference": "00c459e9556db4fb9c854f201089b62a99f5e9a6"
+                "reference": "84ab71d4adc7c41634f9d3fe149c09e959ef5abb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CASES-LU/skeleton/zipball/00c459e9556db4fb9c854f201089b62a99f5e9a6",
-                "reference": "00c459e9556db4fb9c854f201089b62a99f5e9a6",
+                "url": "https://api.github.com/repos/CASES-LU/skeleton/zipball/84ab71d4adc7c41634f9d3fe149c09e959ef5abb",
+                "reference": "84ab71d4adc7c41634f9d3fe149c09e959ef5abb",
                 "shasum": ""
             },
             "require": {
@@ -1581,7 +1581,7 @@
                 "source": "https://github.com/CASES-LU/skeleton/tree/grunt-install",
                 "issues": "https://github.com/CASES-LU/skeleton/issues"
             },
-            "time": "2016-09-17 15:47:46"
+            "time": "2016-09-17 16:02:11"
         },
         {
             "name": "myclabs/deep-copy",
