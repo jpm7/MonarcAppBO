@@ -25,8 +25,13 @@ npm install
 
 cd ../..
 
+pwd
+
 # Compile stuff needed for the minified frontend
 ./scripts/compile_translations.sh
+
+exit;
+
 ./scripts/link_modules_resources.sh
 
 # Prepare the config files

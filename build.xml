@@ -18,15 +18,6 @@
         <echo message="${npm.config}" file="${project.basedir}/package.json"/>
     </target>
 
-    <target name="install-grunt" description="Grunt installation">
-        <exec command="sudo npm install -g grunt"
-              passthru="true"
-              checkreturn="true"/>
-        <exec command="sudo npm install -g grunt-cli"
-              passthru="true"
-              checkreturn="true"/>
-    </target>
-
     <target name="post-install" description="Post install">
         <exec command="scripts/post-install.sh"
               passthru="true"
