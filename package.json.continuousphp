@@ -8,7 +8,7 @@
 		"url": "ssh://git@github.com/CASES-LU/MonarcAppBO"
 	},
 	"dependencies": {
-		"ng_anr": "git+https://@github.token@:x-oauth-basic@github.com/CASES-LU/ng-anr#grunt-install",
-		"ng_backoffice": "git+https://@github.token@:x-oauth-basic@github.com/CASES-LU/ng-backoffice#grunt-install"
+		"ng_anr": "git+https://@github.token@:x-oauth-basic@github.com/CASES-LU/ng-anr#beta",
+		"ng_backoffice": "git+https://@github.token@:x-oauth-basic@github.com/CASES-LU/ng-backoffice#beta"
 	}
 }
