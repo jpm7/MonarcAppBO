@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "688c9626f0a04bc590a6baef5242833d",
+    "content-hash": "073acd7757be89cd2c39e4b6ea4ba32d",
     "packages": [
         {
             "name": "behat/behat",
@@ -1535,16 +1535,16 @@
         },
         {
             "name": "monarc/skeleton",
-            "version": "dev-grunt-install",
+            "version": "dev-beta",
             "source": {
                 "type": "git",
                 "url": "git@github.com:CASES-LU/skeleton.git",
-                "reference": "0a72de930aa7fda3f720307e52fb1d693c865ad2"
+                "reference": "21710f3423945c5787d5c1d32add09a3f0656bfc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CASES-LU/skeleton/zipball/0a72de930aa7fda3f720307e52fb1d693c865ad2",
-                "reference": "0a72de930aa7fda3f720307e52fb1d693c865ad2",
+                "url": "https://api.github.com/repos/CASES-LU/skeleton/zipball/21710f3423945c5787d5c1d32add09a3f0656bfc",
+                "reference": "21710f3423945c5787d5c1d32add09a3f0656bfc",
                 "shasum": ""
             },
             "require": {
@@ -1578,10 +1578,10 @@
             ],
             "description": "Skeleton for Monarc project",
             "support": {
-                "source": "https://github.com/CASES-LU/skeleton/tree/grunt-install",
+                "source": "https://github.com/CASES-LU/skeleton/tree/beta",
                 "issues": "https://github.com/CASES-LU/skeleton/issues"
             },
-            "time": "2016-09-17 16:18:50"
+            "time": "2016-09-18 08:23:13"
         },
         {
             "name": "myclabs/deep-copy",
