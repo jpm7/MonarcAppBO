@@ -28,4 +28,37 @@
         <delete file="${project.basedir}/package.json" quiet="true"/>
         <move file="${project.basedir}/package.json.bak" tofile="${project.basedir}/package.json" overwrite="true"/>
     </target>
+
+    <target name="setup-db" description="Setup Database Credentials">
+        <loadfile property="db.config" file="${project.basedir}/app/config/autoload/database.local.php.dist">
+            <filterchain>
+                <replacetokens>
+                    <token key="db.host" value="${db.host}"/>
+                    <token key="db.username" value="${db.username}"/>
+                    <token key="db.password" value="${db.password}"/>
+                    <token key="db.name" value="${db.name}"/>
+                </replacetokens>
+            </filterchain>
+        </loadfile>
+        <echo message="${db.config}" file="${project.basedir}/app/config/autoload/database.local.php"/>
+    </target>
+
+    <target name="setup-languages" description="Setup Languages">
+        <loadfile property="languages.config" file="${project.basedir}/app/config/autoload/languages.local.php.dist">
+            <!-- PLACE YOUR FILE MODIFICATIONS HERE -->
+        </loadfile>
+        <echo message="${languages.config}" file="${project.basedir}/app/config/autoload/languages.local.php"/>
+    </target>
+
+    <target name="setup-sec-auth" description="Setup Security and Authentication">
+        <loadfile property="sec.config" file="${project.basedir}/app/config/autoload/security-authentication.local.php.dist">
+            <filterchain>
+                <replacetokens>
+                    <token key="monarc.ttl" value="${monarc.ttl}"/>
+                    <token key="monarc.salt" value="${monarc.salt}"/>
+                </replacetokens>
+            </filterchain>
+        </loadfile>
+        <echo message="${sec.config}" file="${project.basedir}/app/config/autoload/security-authentication.local.php"/>
+    </target>
 </project>
