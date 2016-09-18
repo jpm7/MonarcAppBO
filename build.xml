@@ -97,9 +97,7 @@
     </target>
 
     <target name="db-migration" description="Update the database version">
-        <exec command="${doctrine.bin} migrations:migrate --no-interaction --quiet" passthru="true"/>
-        <exec command="${doctrine.bin} orm:clear-cache:metadata" passthru="true"/>
-        <exec command="${doctrine.bin} orm:clear-cache:query" passthru="true"/>
+        <exec command="${phinx.bin} migrate -c ./app/module/MonarcBO/migrations/phinx.php" passthru="true"/>
     </target>
 
     <target name="reset-db"
